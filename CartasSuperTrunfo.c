@@ -30,11 +30,11 @@ int main() {
 
     printf("[Carta 1] Digite o tamanho da área: \n");
     scanf("%.2f", &area);  
-    printf("A área da cidade é: %f\n", area);  
+    printf("A área da cidade é: %.2f\n", area);  
 
     printf("[Carta 1] Digite o PIB: \n");
     scanf("%.2f",&PIB);  
-    printf("O PIB da cidade é: %f\n", PIB);  
+    printf("O PIB da cidade é: %.2f\n", PIB);  
 
     printf("[Carta 1] Digite os pontos da cidade: \n");
     scanf("%d", &pontos);  
@@ -46,8 +46,8 @@ int main() {
 
     printf("codigo da cidade: %s\n", codigo);
     printf("população: %d\n", populacao);
-    printf("área: %f\n", area);
-    printf("PIB: %f\n", PIB);
+    printf("área: %.2f\n", area);
+    printf("PIB: %.2f\n", PIB);
     printf("pontos: %d\n", pontos);
     printf("cidade: %s\n", cidade);
 
@@ -67,11 +67,11 @@ int main() {
 
     printf("[Carta 2] Digite para saber o tamanho da área: \n");
     scanf("%.2f", &area2);  
-    printf("A área da cidade é: %f\n", area2);
+    printf("A área da cidade é: %.2f\n", area2);
 
     printf("[Carta 2] Digite o PIB: \n");
     scanf("%.2f",&PIB2);  
-    printf("O PIB da cidade é: %f\n", PIB2);  
+    printf("O PIB da cidade é: %.2f\n", PIB2);  
 
     printf("[Carta 2] Digite os pontos da cidade: \n");
     scanf("%d", &pontos2);  
