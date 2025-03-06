@@ -29,12 +29,12 @@ int main() {
     printf("A população é: %d\n",populacao);  
 
     printf("[Carta 1] Digite o tamanho da área: \n");
-    scanf("%.2f", &area);  
-    printf("A área da cidade é: %.2f\n", area);  
+    scanf("%f", &area);  
+    printf("A área da cidade é: %f\n", area);  
 
     printf("[Carta 1] Digite o PIB: \n");
-    scanf("%.2f",&PIB);  
-    printf("O PIB da cidade é: %.2f\n", PIB);  
+    scanf("%f",&PIB);  
+    printf("O PIB da cidade é: %f\n", PIB);  
 
     printf("[Carta 1] Digite os pontos da cidade: \n");
     scanf("%d", &pontos);  
@@ -46,16 +46,16 @@ int main() {
 
     printf("codigo da cidade: %s\n", codigo);
     printf("população: %d\n", populacao);
-    printf("área: %.2f\n", area);
-    printf("PIB: %.2f\n", PIB);
+    printf("área: %fn", area);
+    printf("PIB: %f\n", PIB);
     printf("pontos: %d\n", pontos);
     printf("cidade: %s\n", cidade);
 
     densidadepopulacional = (float) populacao / area;
-    printf("A densidade populacional é de: %.2f \n", densidadepopulacional);
+    printf("A densidade populacional é de: %f \n", densidadepopulacional);
 
     PIBpercapita = (float) PIB / populacao;
-    printf("O PIB per capita é de: %.2f \n", PIBpercapita);
+    printf("O PIB per capita é de: %f \n", PIBpercapita);
 
     printf("[Carta 2] Digite o código da cidade: \n");
     scanf("%s",codigo2);  
@@ -66,12 +66,12 @@ int main() {
     printf("A população é: %d\n",populacao2);
 
     printf("[Carta 2] Digite para saber o tamanho da área: \n");
-    scanf("%.2f", &area2);  
-    printf("A área da cidade é: %.2f\n", area2);
+    scanf("%f", &area2);  
+    printf("A área da cidade é: %f\n", area2);
 
     printf("[Carta 2] Digite o PIB: \n");
-    scanf("%.2f",&PIB2);  
-    printf("O PIB da cidade é: %.2f\n", PIB2);  
+    scanf("%f",&PIB2);  
+    printf("O PIB da cidade é: %f\n", PIB2);  
 
     printf("[Carta 2] Digite os pontos da cidade: \n");
     scanf("%d", &pontos2);  
@@ -83,16 +83,16 @@ int main() {
 
     printf("codigo da cidade: %s\n", codigo2);
     printf("população: %d\n", populacao2);
-    printf("área: %.2f\n", area2);
-    printf("PIB: %.2f\n", PIB2);
+    printf("área: %f\n", area2);
+    printf("PIB: %f\n", PIB2);
     printf("pontos: %d\n", pontos2);
     printf("cidade: %s\n", cidade2);
 
     densidadepopulacional2 = (float) populacao2 / area2;
-    printf("A densidade populacional é de: %.2f \n", densidadepopulacional2);
+    printf("A densidade populacional é de: %f \n", densidadepopulacional2);
 
     PIBpercapita2 = (float) PIB2 / populacao2;
-    printf("O PIB per capita é de: %.2f \n", PIBpercapita2);
+    printf("O PIB per capita é de: %f \n", PIBpercapita2);
 
 
     return 0;
