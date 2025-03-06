@@ -52,10 +52,10 @@ int main() {
     printf("cidade: %s\n", cidade);
 
     densidadepopulacional = (float) populacao / area;
-    printf("A densidade populacional é de: %f \n", densidadepopulacional);
+    printf("A densidade populacional é de: %.2f \n", densidadepopulacional);
 
     PIBpercapita = (float) PIB / populacao;
-    printf("O PIB per capita é de: %f \n", PIBpercapita);
+    printf("O PIB per capita é de: %.2f \n", PIBpercapita);
 
     printf("[Carta 2] Digite o código da cidade: \n");
     scanf("%s",codigo2);  
@@ -89,10 +89,10 @@ int main() {
     printf("cidade: %s\n", cidade2);
 
     densidadepopulacional2 = (float) populacao2 / area2;
-    printf("A densidade populacional é de: %f \n", densidadepopulacional2);
+    printf("A densidade populacional é de: %.2f \n", densidadepopulacional2);
 
     PIBpercapita2 = (float) PIB2 / populacao2;
-    printf("O PIB per capita é de: %f \n", PIBpercapita2);
+    printf("O PIB per capita é de: %.2f \n", PIBpercapita2);
 
 
     return 0;
